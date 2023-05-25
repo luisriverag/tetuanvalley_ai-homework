@@ -1,0 +1,5 @@
+langchain
+openai
+streamlit
+tabulate
+os-sys
