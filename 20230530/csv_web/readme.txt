@@ -5,3 +5,4 @@ https://dev.to/ngonidzashe/chat-with-your-csv-visualize-your-data-with-langchain
 
 pip install langchain openai streamlit python-environ tabulate
 
+streamlit run interface.py
