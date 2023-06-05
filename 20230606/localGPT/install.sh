@@ -15,11 +15,6 @@ python3.10  -m venv localGPT_venv
 source localGPT_venv/bin/activate
 pip install -r requirements.txt
 
-#Download models
-mkdir models
-cd models
-wget https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin
-
 #Put any and all your files into the SOURCE_DOCUMENTS directory, ingest them
 python3 ingest.py
 
