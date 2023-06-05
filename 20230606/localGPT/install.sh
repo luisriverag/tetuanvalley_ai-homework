@@ -19,4 +19,4 @@ pip install -r requirements.txt
 python3 ingest.py --device_type cpu
 
 #Run a query 
-python run_localGPT.py
+python run_localGPT.py --device_type cpu
