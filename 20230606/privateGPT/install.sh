@@ -27,3 +27,6 @@ python3 ingest.py
 
 #Run a query 
 python privateGPT.py
+
+#Run a query, less verbose
+python privateGPTv2.py --hide-source --mute-stream
