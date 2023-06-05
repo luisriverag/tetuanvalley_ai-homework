@@ -29,4 +29,4 @@ python3 ingest.py
 python privateGPT.py
 
 #Run a query, less verbose
-python privateGPTv2.py --hide-source --mute-stream
+python privateGPTv2.py --hide-source

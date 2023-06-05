@@ -16,7 +16,7 @@ source localGPT_venv/bin/activate
 pip install -r requirements.txt
 
 #Put any and all your files into the SOURCE_DOCUMENTS directory, ingest them
-python3 ingest.py
+python3 ingest.py --device_type cpu
 
 #Run a query 
 python run_localGPT.py
