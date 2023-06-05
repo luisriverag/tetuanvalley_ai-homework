@@ -1,10 +1,22 @@
+#Python3.10
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+#press enter
+sudo apt update
+sudo apt install python3.10
+sudo apt install python3.10-distutils
+sudo apt install python3.10-venv
+
+#curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+#python3.10 get-pip.py
+
+
 #Clone and install
 git clone https://github.com/imartinez/privateGPT.git
 cd privateGPT
-python3  -m venv privateGPT
+python3.10  -m venv privateGPT
 source privateGPT/bin/activate
 pip3 install -r requirements.txt
-#Download models
 mkdir models
 cd models
 wget https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin

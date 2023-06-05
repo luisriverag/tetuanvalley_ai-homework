@@ -1,9 +1,18 @@
+#Python3.10
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+#press enter
+sudo apt update
+sudo apt install python3.10
+sudo apt-get install python3.10-distutils
+sudo apt install python3.10-venv
+
 #Clone and install
 git clone https://github.com/PromtEngineer/localGPT.git
 cd localGPT
-python3  -m venv localGPT
-source localGPT/bin/activate
-pip3 install -r requirements.txt
+python3.10  -m venv localGPT_venv
+source localGPT_venv/bin/activate
+pip install -r requirements.txt
 
 #Download models
 mkdir models
