@@ -4,7 +4,8 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 #press enter
 sudo apt update
 sudo apt install python3.10
-sudo apt-get install python3.10-distutils
+sudo apt-install python3.10-distutils
+sudo apt-install python3.10-dev
 sudo apt install python3.10-venv
 
 #Clone and install

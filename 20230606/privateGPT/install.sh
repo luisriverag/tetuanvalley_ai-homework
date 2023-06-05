@@ -6,10 +6,7 @@ sudo apt update
 sudo apt install python3.10
 sudo apt install python3.10-distutils
 sudo apt install python3.10-venv
-
-#curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-#python3.10 get-pip.py
-
+sudo apt install python3.10-dev
 
 #Clone and install
 git clone https://github.com/imartinez/privateGPT.git
