@@ -1,3 +1,4 @@
+sudo apt-get install portaudio19-dev
 git clone https://github.com/SevaSk/ecoute.git
 python3 -m venv ecoute_venv
 source ecoute_venv/bin/activate
