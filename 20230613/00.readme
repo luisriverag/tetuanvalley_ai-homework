@@ -1,0 +1,10 @@
+#https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/weaviate/getting-started-with-weaviate-and-openai.ipynb
+
+#https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/weaviate/hybrid-search-with-weaviate-and-openai.ipynb
+
+#https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/weaviate/question-answering-with-weaviate-and-openai.ipynb
+
+
+python3.11  -m venv weviate_test_venv
+source weviate_test_venv/bin/activate
+pip install -r requirements.txt
